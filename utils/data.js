@@ -45,7 +45,7 @@ const data = {
       brand: "brand-4",
       rating: "3.5",
       numReviews: 2,
-      stockNum: 12,
+      stockNum: 0,
       description: "product-4 from brand-4",
     },
     {
