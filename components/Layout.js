@@ -51,7 +51,7 @@ export default function Layout({ title, children }) {
                   </span>
                 )}
               </Link>
-              {status === "Loading" ? (
+              {status === "loading" ? (
                 "Loading"
               ) : session?.user ? (
                 <Menu as="div" className="relative inline-block">
