@@ -55,6 +55,14 @@ function reducer(state, action) {
           },
         },
       };
+    case "SAVE_PAYMENTMETHOD":
+      return {
+        ...state,
+        cart: {
+          ...state.cart,
+          paymentMethod: action.payload,
+        },
+      };
     default:
       return state;
   }
